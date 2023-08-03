@@ -1,0 +1,22 @@
+collision handling 
+of two types
+in hashmaps 
+
+more than one key wants to go at same place 
+1. closed hashing 
+-> store it in form of linked make addresses 
+-> continous for different values
+->this is also called separate chaining 
+
+
+2. open addressing 
+->hi = h f(a)+f(i);
+->f(i) = f(0) =0
+-> if that place is not already filled fill it else find an alternate place 
+1. linear probing f(i) = i;
+2. quadratic probing f(i) = i*if
+3. double hashing f(i) = i*h'(a) => h'(a) is another hash function
+
+
+
+
